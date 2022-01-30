@@ -59,6 +59,7 @@ apple.addImage(appleImg);
 apple.scale=0.07;
 apple.velocityY = 3;
 apple.lifetime = 150;
+rabbit.depth=apple.depth+1;
   
 }
 
@@ -68,6 +69,7 @@ orangeL.addImage(orangeImg);
 orangeL.scale=0.08;
 orangeL.velocityY = 3;
 orangeL.lifetime = 150;
+rabbit.depth=orangeL.depth+1;
 }
 
 function createRed() {
@@ -76,4 +78,6 @@ redL.addImage(redImg);
 redL.scale=0.06;
   redL.velocityY = 3;
   redL.lifetime = 150;
+  rabbit.depth=redL.depth+1;
+
 }
